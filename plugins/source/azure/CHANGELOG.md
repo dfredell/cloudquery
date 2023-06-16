@@ -5,6 +5,22 @@ All notable changes to this provider will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.3.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-azure-v8.2.0...plugins-source-azure-v8.3.0) (2023-06-16)
+
+
+### Features
+
+* **resources:** Use `resourcemanager/resources/armsubscriptions` for subscription resources ([#10369](https://github.com/cloudquery/cloudquery/issues/10369)) ([0a76536](https://github.com/cloudquery/cloudquery/commit/0a765362b095345c47435180c2279b4d34bd5b25)), closes [#9854](https://github.com/cloudquery/cloudquery/issues/9854)
+
+
+### Bug Fixes
+
+* **azure-policies:** Fix Syntax for policies ([#10184](https://github.com/cloudquery/cloudquery/issues/10184)) ([7795b37](https://github.com/cloudquery/cloudquery/commit/7795b37659b91f0ba9bb0c164c386fda13bfc28b))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 1e68c51 ([#11637](https://github.com/cloudquery/cloudquery/issues/11637)) ([46043bc](https://github.com/cloudquery/cloudquery/commit/46043bce410f86ba42390a6b190f9232fc2a1ded))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 4d76231 ([#11532](https://github.com/cloudquery/cloudquery/issues/11532)) ([6f04233](https://github.com/cloudquery/cloudquery/commit/6f042333acbd2506f7800ccb89a8c5cbfb7ad8d4))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to d864719 ([#11611](https://github.com/cloudquery/cloudquery/issues/11611)) ([557a290](https://github.com/cloudquery/cloudquery/commit/557a2903af272b8e2e4c9eebb36e39cd8a41a805))
+* **deps:** Update module github.com/cloudquery/plugin-sdk/v3 to v3.10.6 ([#11473](https://github.com/cloudquery/cloudquery/issues/11473)) ([7272133](https://github.com/cloudquery/cloudquery/commit/72721336632e127dd37de4541f2f503bf4f73fb6))
+
 ## [8.2.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-azure-v8.1.0...plugins-source-azure-v8.2.0) (2023-06-13)
 
 
