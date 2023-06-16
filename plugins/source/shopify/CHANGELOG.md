@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.0.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-shopify-v2.0.2...plugins-source-shopify-v3.0.0) (2023-06-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **shopify:** Sync all orders rather than just open orders. This can cause sync times to drastically increase as there are more records to sync.
+
+### Features
+
+* **shopify:** Sync all orders not just open orders (https://github.com/cloudquery/cloudquery/pull/11528) ([e647334](https://github.com/cloudquery/cloudquery/commit/e647334a86b55962ebc9c3b14f762d044c554b51))
+
+
+### Bug Fixes
+
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 1e68c51 ([#11637](https://github.com/cloudquery/cloudquery/issues/11637)) ([46043bc](https://github.com/cloudquery/cloudquery/commit/46043bce410f86ba42390a6b190f9232fc2a1ded))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 4d76231 ([#11532](https://github.com/cloudquery/cloudquery/issues/11532)) ([6f04233](https://github.com/cloudquery/cloudquery/commit/6f042333acbd2506f7800ccb89a8c5cbfb7ad8d4))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to d864719 ([#11611](https://github.com/cloudquery/cloudquery/issues/11611)) ([557a290](https://github.com/cloudquery/cloudquery/commit/557a2903af272b8e2e4c9eebb36e39cd8a41a805))
+* **deps:** Update module github.com/cloudquery/plugin-sdk/v3 to v3.10.6 ([#11473](https://github.com/cloudquery/cloudquery/issues/11473)) ([7272133](https://github.com/cloudquery/cloudquery/commit/72721336632e127dd37de4541f2f503bf4f73fb6))
+
 ## [2.0.2](https://github.com/cloudquery/cloudquery/compare/plugins-source-shopify-v2.0.1...plugins-source-shopify-v2.0.2) (2023-06-13)
 
 
