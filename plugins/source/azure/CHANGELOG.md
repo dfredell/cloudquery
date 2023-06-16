@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [8.3.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-azure-v8.2.0...plugins-source-azure-v8.3.0) (2023-06-16)
 
 
+### This Release has the Following Changes to Tables
+- Table `azure_subscription_subscription_locations`: column added with name `metadata` and type `json`
+- Table `azure_subscription_subscription_locations`: column added with name `regional_display_name` and type `utf8`
+- Table `azure_subscription_subscription_locations`: column added with name `type` and type `utf8`
+- Table `azure_subscription_subscriptions`: column added with name `managed_by_tenants` and type `json`
+- Table `azure_subscription_subscriptions`: column added with name `tags` and type `json`
+- Table `azure_subscription_subscriptions`: column added with name `tenant_id` and type `utf8`
+- Table `azure_subscription_tenants`: column added with name `country_code` and type `utf8`
+- Table `azure_subscription_tenants`: column added with name `country` and type `utf8`
+- Table `azure_subscription_tenants`: column added with name `default_domain` and type `utf8`
+- Table `azure_subscription_tenants`: column added with name `display_name` and type `utf8`
+- Table `azure_subscription_tenants`: column added with name `domains` and type `list<item: utf8, nullable>`
+- Table `azure_subscription_tenants`: column added with name `tenant_branding_logo_url` and type `utf8`
+- Table `azure_subscription_tenants`: column added with name `tenant_category` and type `utf8`
+- Table `azure_subscription_tenants`: column added with name `tenant_type` and type `utf8`
+
 ### Features
 
 * **resources:** Use `resourcemanager/resources/armsubscriptions` for subscription resources ([#10369](https://github.com/cloudquery/cloudquery/issues/10369)) ([0a76536](https://github.com/cloudquery/cloudquery/commit/0a765362b095345c47435180c2279b4d34bd5b25)), closes [#9854](https://github.com/cloudquery/cloudquery/issues/9854)
