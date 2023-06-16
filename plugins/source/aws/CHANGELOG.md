@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [19.0.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v18.4.0...plugins-source-aws-v19.0.0) (2023-06-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws:** Move `web_acl_arn` to its own table ([#11421](https://github.com/cloudquery/cloudquery/issues/11421))
+* **aws:** Add support For fully describing the organizational hierarchy ([#11633](https://github.com/cloudquery/cloudquery/issues/11633))
+* **aws:** Support all policy types in Identity Center ([#10985](https://github.com/cloudquery/cloudquery/issues/10985))
+
+### Features
+
+* **aws:** Add support For fully describing the organizational hierarchy ([#11633](https://github.com/cloudquery/cloudquery/issues/11633)) ([f66995b](https://github.com/cloudquery/cloudquery/commit/f66995baa71a8bc0b4f2c917bffa29ff174a88b5))
+* **aws:** Support all policy types in Identity Center ([#10985](https://github.com/cloudquery/cloudquery/issues/10985)) ([a8ab255](https://github.com/cloudquery/cloudquery/commit/a8ab255d369a2b88778da005b82fd7e59a085e00))
+
+
+### Bug Fixes
+
+* **aws:** Move `web_acl_arn` to its own table ([#11421](https://github.com/cloudquery/cloudquery/issues/11421)) ([cdda682](https://github.com/cloudquery/cloudquery/commit/cdda682263381d0e4a2262e5d32cb8d13ab25d05))
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 1e68c51 ([#11637](https://github.com/cloudquery/cloudquery/issues/11637)) ([46043bc](https://github.com/cloudquery/cloudquery/commit/46043bce410f86ba42390a6b190f9232fc2a1ded))
+
 ## [18.4.0](https://github.com/cloudquery/cloudquery/compare/plugins-source-aws-v18.3.0...plugins-source-aws-v18.4.0) (2023-06-15)
 
 
