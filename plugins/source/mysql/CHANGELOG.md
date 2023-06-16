@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/cloudquery/cloudquery/compare/plugins-source-mysql-v1.2.2...plugins-source-mysql-v1.2.3) (2023-06-16)
+
+
+### Bug Fixes
+
+* **deps:** Update github.com/cloudquery/arrow/go/v13 digest to 1e68c51 ([#11637](https://github.com/cloudquery/cloudquery/issues/11637)) ([46043bc](https://github.com/cloudquery/cloudquery/commit/46043bce410f86ba42390a6b190f9232fc2a1ded))
+
 ## [1.2.2](https://github.com/cloudquery/cloudquery/compare/plugins-source-mysql-v1.2.1...plugins-source-mysql-v1.2.2) (2023-06-15)
 
 
